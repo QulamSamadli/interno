@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+}
+header {
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+
+
+
+.navbar .navlink {
+  margin-left: 20px;
+  color: #292f36;
+  text-decoration: none;
+  position: relative;
+}
+.navbar .navlink::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: #cda274;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5px;
+  border-radius: 10px;
+  transition:0.3s;
+}
+
+.navbar .navlink:hover::after {
+  width: 100%;
+}
+
+.navbar .active::after{
+    width: 100%;
+}
