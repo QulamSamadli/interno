@@ -1,0 +1,19 @@
+.banner{
+    height: calc(100vh - 60px);
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 200px;
+    background-image: url("./banner.jpg");
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-size: 60px;
+    
+}
+.description{
+    font-size: 22px;
+    line-height: 33px;
+    margin: 15px 0;
+}

@@ -1,10 +1,15 @@
-import React from 'react'
-import Navigation from '../../Components/Navigation';
+import React from "react";
+import Navigation from "../../Components/Navigation";
+import Banner from "../../Components/Banner";
 
 const HomePage = () => {
   return (
-    <div> <Navigation/></div>
-  )
-}
+    <div>
+      
+      <Navigation />
+      <Banner />
+    </div>
+  );
+};
 
 export default HomePage;
