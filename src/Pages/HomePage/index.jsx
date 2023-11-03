@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../../Components/Navigation";
 import Banner from "../../Components/Banner";
+import WorkPlanCards from "../../Components/WorkPlan";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       
       <Navigation />
       <Banner />
+      <WorkPlanCards/>
     </div>
   );
 };
