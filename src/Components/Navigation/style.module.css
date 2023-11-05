@@ -9,8 +9,6 @@ header {
   border-bottom: 1px solid gray;
 }
 
-
-
 .navbar .navlink {
   margin-left: 20px;
   color: #292f36;
@@ -27,18 +25,47 @@ header {
   transform: translateX(-50%);
   bottom: -5px;
   border-radius: 10px;
-  transition:0.3s;
+  transition: 0.3s;
 }
 
 .navbar .navlink:hover::after {
   width: 100%;
 }
 
-.navbar .active::after{
-    width: 100%;
+.navbar .active::after {
+  width: 100%;
 }
-.bars{
+.bars {
   font-size: 25px;
   cursor: pointer;
+}
+@media (max-width: 780px) {
+  .mobileNav{
+    display: flex !important;
+    flex-direction: column;
+  align-items: center;
+    gap: 50px;
+    position: absolute;
+    inset: 0;
+    top: 50px;
+    background-color: white;
+    border-top: 1px solid #cda274;
+    padding-top: 30px;
+
+    .navlink::after,
+    .navlink:hover:after {
+      width: 0;
+    }
+    .navlink {
+
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width :768px) {
+  .mobileNav{
+    display: none !important;
+  }
   
 }
