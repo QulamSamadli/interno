@@ -37,3 +37,8 @@ header {
 .navbar .active::after{
     width: 100%;
 }
+.bars{
+  font-size: 25px;
+  cursor: pointer;
+  
+}

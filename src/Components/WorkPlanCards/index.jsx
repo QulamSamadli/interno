@@ -15,7 +15,7 @@ const WorkPlanCards = () => {
   }, []);
 
   return <div className="container">
-    <div className="row  mb-5 my-2">
+    <div className="row  mb-5 my-5">
        
             {
                 cards.map(({id,title,description})=>{

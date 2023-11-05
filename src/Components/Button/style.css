@@ -1,6 +1,5 @@
 .button {
   border-radius: 18px;
-
   display: flex;
   width: 100px;
   height: 40px;
@@ -8,7 +7,7 @@
   align-items: center;
   width: 219.141px;
   padding: 26px 48px;
-  gap: 10px;
+  gap: 5px;
   font-size: 16px;
   cursor: pointer;
   box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
@@ -18,17 +17,17 @@
 .dark {
   background: #292f36;
   transition: 0.5s;
-  &:hover{
+  &:hover {
     background-color: transparent;
     border-color: transparent;
     color: #292f36;
-}
+  }
 }
 .gold {
-    background: #CDA274;
-    transition: 0.5s;
-    &:hover{
-      border-color: transparent;
+  background: #cda274;
+  transition: 0.5s;
+  &:hover {
+    border-color: transparent;
     background-color: transparent;
     color: #292f36;
   }
