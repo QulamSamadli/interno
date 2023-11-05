@@ -4,7 +4,7 @@ import Blog from "../../Pages/Blog";
 import Contact from "../../Pages/Contact";
 import HomePage from "../../Pages/HomePage";
 import Projects from "../../Pages/Projects";
-import WorkPlanCardDetail from "../WorkPlanCardDetail";
+import WorkPlanCardDetail from "../../Pages/WorkPlanCardDetail";
 
 export const myRoutes = [
   {
